@@ -4,3 +4,4 @@ Server/bin/**
 Server/obj/**
 Shared/bin/**
 Shared/obj/**
+Server/appsettings.Development.json

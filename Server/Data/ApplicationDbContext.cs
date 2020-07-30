@@ -17,5 +17,16 @@ namespace TerritoryWebPWA.Server.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+
+        public DbSet<Congregation> Congregations { get; set; }
+        public DbSet<Door> Doors { get; set; }
+        public DbSet<DoorCode> DoorCodes { get; set; }
+        public DbSet<Language> Languages { get; set; }
+        public DbSet<PublisherType> PublisherTypes { get; set; }
+        public DbSet<Territory> Territories { get; set; }
+        public DbSet<TerritoryAccess> TerritoryAccess { get; set; }
+        public DbSet<TerritoryBound> TerritoryBounds { get; set; }
+        public DbSet<TerritoryType> TerritoryTypes { get; set; }
+        public DbSet<URLMinimizeStore> URLMinimizeStore { get; set; }
     }
 }
