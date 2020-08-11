@@ -27,8 +27,8 @@ namespace TerritoryWebPWA.Server.Models
         public Nullable<System.DateTime> CheckedIn { get; set; }
         public string LastCheckedInBy { get; set; }
     
-        //public virtual Congregation Congregation { get; set; }
-        // public virtual TerritoryType TerritoryType { get; set; }
+        public virtual Congregation Congregation { get; set; }
+        public virtual TerritoryType TerritoryType { get; set; }
         // public virtual ICollection<TerritoryBound> TerritoryBounds { get; set; }
         // public virtual AspNetUser AssignedUser { get; set; }
         // public virtual AspNetUser LastCheckedInUser { get; set; }
